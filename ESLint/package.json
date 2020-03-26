@@ -4,11 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {},
-  "keywords": [
-    "master",
-    "collecotor",
-    "monitoring"
-  ],
+  "keywords": [],
   "author": "Jay",
   "license": "",
   "devDependencies": {
