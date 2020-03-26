@@ -1,0 +1,55 @@
+{
+  "editor.fontFamily": "D2Coding ligature",
+  "editor.fontLigatures": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "powermode.enabled": true,
+  "powermode.explosionSize": 25,
+  "powermode.explosionFrequency": 1,
+  "powermode.shakeIntensity": 10,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "powermode.comboTimeout": 1,
+  "powermode.enableShake": false,
+  "powermode.explosionOffset": 0.9,
+  "powermode.presets": "flames",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "sync.gist": "50cdf043a358a16869733a2ffdd99cbb",
+  "javascript.preferences.quoteStyle": "single",
+  "bookmarks.useWorkaroundForFormatters": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.showTabs": true,
+  "workbench.statusBar.visible": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnPaste": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "todohighlight.keywords": ["NOTE:", "QUESTION:"],
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#000000a8", //선택된 라인 전체의 백그라운드 색상
+    "editor.selectionBackground": "#000000a8", //선택된 영역만의 배경 색상
+    "editor.wordHighlightBackground": "#ffffff", //선택된 영역만의 글자 색상
+    "editorCursor.foreground": "#daf108" //선택된 영역에서의 커서 색상
+  },
+  // 주석(comments) 색상 변경
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic", //주석의 폰트체를 이탤릭 처리
+          "foreground": "#2d9b33" //주석의 색상을 변경
+        }
+      }
+    ]
+  }
+}
